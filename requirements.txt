@@ -1,0 +1,6 @@
+These libraries must be installed:
+
+numpy
+scipy
+matplotlib
+opencv-python
