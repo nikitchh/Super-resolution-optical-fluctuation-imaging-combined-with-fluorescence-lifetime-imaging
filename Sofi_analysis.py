@@ -9,7 +9,8 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 
-folder = Path(r"C:Frames_for_calculation")
+script_dir = Path(__file__).resolve().parent
+folder = script_dir / "Frames_for_calculation"
 files = sorted(folder.glob("*.png"))
 
 # SOFI processing parameters.
